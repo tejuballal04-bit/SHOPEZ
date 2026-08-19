@@ -108,7 +108,7 @@ const products = [
     description: "Durable non-stick frying pan for everyday cooking.",
     price: 699,
     category: "Home & Kitchen",
-    image: "https://placehold.co/600x500?text=Frying+Pan",
+    image: "/img/kitchen1.jpg",
     stock: 18,
   },
   {
