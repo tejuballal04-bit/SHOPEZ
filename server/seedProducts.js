@@ -17,7 +17,7 @@ const products = [
     description: "Stylish smart watch with fitness and health tracking.",
     price: 2499,
     category: "Electronics",
-    image: "https://placehold.co/600x500?text=Smart+Watch",
+    image: "/img/img1.jpg",
     stock: 15,
   },
   {
@@ -25,7 +25,7 @@ const products = [
     description: "Portable Bluetooth speaker with powerful sound.",
     price: 1499,
     category: "Electronics",
-    image: "https://placehold.co/600x500?text=Bluetooth+Speaker",
+    image: "/img/elec3.jpg",
     stock: 20,
   },
   {
@@ -33,7 +33,7 @@ const products = [
     description: "Comfortable wireless headphones with deep bass.",
     price: 2999,
     category: "Electronics",
-    image: "https://placehold.co/600x500?text=Headphones",
+    image: "/img/elec4.jpg",
     stock: 12,
   },
 
@@ -42,7 +42,7 @@ const products = [
     description: "Beautiful cotton kurti suitable for casual wear.",
     price: 799,
     category: "Fashion",
-    image: "https://placehold.co/600x500?text=Women+Kurti",
+    image: "/img/fashion1.jpg",
     stock: 30,
   },
   {
@@ -50,7 +50,7 @@ const products = [
     description: "Comfortable cotton casual shirt for everyday wear.",
     price: 999,
     category: "Fashion",
-    image: "https://placehold.co/600x500?text=Mens+Shirt",
+    image: "/img/fashion2.jpg",
     stock: 20,
   },
   {
@@ -58,7 +58,7 @@ const products = [
     description: "Elegant handbag with spacious compartments.",
     price: 1299,
     category: "Fashion",
-    image: "https://placehold.co/600x500?text=Handbag",
+    image: "/img/fashion3.jpg",
     stock: 18,
   },
   {
@@ -66,7 +66,7 @@ const products = [
     description: "Classic comfortable denim jeans for everyday styling.",
     price: 1499,
     category: "Fashion",
-    image: "https://placehold.co/600x500?text=Denim+Jeans",
+    image: "/img/fashion4.jpg",
     stock: 22,
   },
 
@@ -75,7 +75,7 @@ const products = [
     description: "Lightweight face serum for glowing and healthy skin.",
     price: 599,
     category: "Beauty",
-    image: "https://placehold.co/600x500?text=Face+Serum",
+    image: "/img/beauty1.jpg",
     stock: 35,
   },
   {
@@ -83,7 +83,7 @@ const products = [
     description: "Hydrating moisturizer suitable for daily skincare.",
     price: 449,
     category: "Beauty",
-    image: "https://placehold.co/600x500?text=Moisturizer",
+    image: "/img/beauty2.jpg",
     stock: 40,
   },
   {
@@ -91,7 +91,7 @@ const products = [
     description: "Long-lasting lipstick with a smooth finish.",
     price: 399,
     category: "Beauty",
-    image: "https://placehold.co/600x500?text=Lipstick",
+    image: "/img/beauty3.jpg",
     stock: 28,
   },
   {
@@ -99,7 +99,7 @@ const products = [
     description: "Refreshing fragrance suitable for everyday use.",
     price: 899,
     category: "Beauty",
-    image: "https://placehold.co/600x500?text=Perfume",
+    image: "/img/beauty4.jpg",
     stock: 16,
   },
 
@@ -116,7 +116,7 @@ const products = [
     description: "Fast boiling electric kettle with automatic shut-off.",
     price: 999,
     category: "Home & Kitchen",
-    image: "https://placehold.co/600x500?text=Electric+Kettle",
+    image: "/img/kitchen2.jpg",
     stock: 14,
   },
   {
@@ -124,7 +124,7 @@ const products = [
     description: "Elegant dinner set for family dining.",
     price: 1599,
     category: "Home & Kitchen",
-    image: "https://placehold.co/600x500?text=Dinner+Set",
+    image: "/img/kitchen3.jpg",
     stock: 10,
   },
   {
@@ -132,7 +132,7 @@ const products = [
     description: "Modern decorative table lamp for home and office.",
     price: 799,
     category: "Home & Kitchen",
-    image: "https://placehold.co/600x500?text=Table+Lamp",
+    image: "/img/home1.jpg",
     stock: 20,
   },
 
@@ -141,7 +141,7 @@ const products = [
     description: "Premium quality long grain basmati rice.",
     price: 699,
     category: "Grocery",
-    image: "https://placehold.co/600x500?text=Basmati+Rice",
+    image: "/img/grocery1.jpg",
     stock: 50,
   },
   {
@@ -149,7 +149,7 @@ const products = [
     description: "Fresh and nutritious whole wheat flour.",
     price: 299,
     category: "Grocery",
-    image: "https://placehold.co/600x500?text=Wheat+Flour",
+    image: "/img/grocery2.jpg",
     stock: 45,
   },
   {
@@ -157,7 +157,7 @@ const products = [
     description: "Refreshing green tea made from premium tea leaves.",
     price: 249,
     category: "Grocery",
-    image: "https://placehold.co/600x500?text=Green+Tea",
+    image: "/img/grocery3.jpg",
     stock: 35,
   },
   {
@@ -165,7 +165,7 @@ const products = [
     description: "Healthy mix of almonds, cashews and raisins.",
     price: 599,
     category: "Grocery",
-    image: "https://placehold.co/600x500?text=Dry+Fruits",
+    image: "/img/grocery4.jpg",
     stock: 25,
   },
 
@@ -174,7 +174,7 @@ const products = [
     description: "A motivational book about building better habits.",
     price: 399,
     category: "Books",
-    image: "https://placehold.co/600x500?text=Habits+Book",
+    image: "/img/book1.jpg",
     stock: 20,
   },
   {
@@ -182,7 +182,7 @@ const products = [
     description: "Beginner friendly JavaScript programming book.",
     price: 599,
     category: "Books",
-    image: "https://placehold.co/600x500?text=JavaScript+Book",
+    image: "/img/book2.jpg",
     stock: 15,
   },
   {
@@ -190,7 +190,7 @@ const products = [
     description: "Complete beginner guide to modern web development.",
     price: 699,
     category: "Books",
-    image: "https://placehold.co/600x500?text=Web+Development",
+    image: "/img/book3.jpg",
     stock: 12,
   },
   {
@@ -198,7 +198,7 @@ const products = [
     description: "Popular inspirational fiction novel.",
     price: 299,
     category: "Books",
-    image: "https://placehold.co/600x500?text=The+Alchemist",
+    image: "/img/book4.jpg",
     stock: 25,
   },
 
@@ -207,7 +207,7 @@ const products = [
     description: "Fun remote control racing car for kids.",
     price: 899,
     category: "Toys & Gaming",
-    image: "https://placehold.co/600x500?text=RC+Car",
+    image: "/img/toy1.jpg",
     stock: 18,
   },
   {
@@ -215,7 +215,7 @@ const products = [
     description: "High precision gaming mouse with RGB lighting.",
     price: 799,
     category: "Toys & Gaming",
-    image: "https://placehold.co/600x500?text=Gaming+Mouse",
+    image: "/img/toy2.jpg",
     stock: 20,
   },
   {
@@ -223,7 +223,7 @@ const products = [
     description: "Comfortable wireless controller for gaming.",
     price: 1499,
     category: "Toys & Gaming",
-    image: "https://placehold.co/600x500?text=Game+Controller",
+    image: "/img/toy3.jpg",
     stock: 14,
   },
   {
@@ -231,7 +231,7 @@ const products = [
     description: "Creative building blocks set for children.",
     price: 499,
     category: "Toys & Gaming",
-    image: "https://placehold.co/600x500?text=Building+Blocks",
+    image: "/img/toy4.jpg",
     stock: 30,
   },
 
@@ -240,7 +240,7 @@ const products = [
     description: "Soft and comfortable non-slip yoga mat.",
     price: 599,
     category: "Sports",
-    image: "https://placehold.co/600x500?text=Yoga+Mat",
+    image: "/img/sport1.jpg",
     stock: 25,
   },
   { 
@@ -248,7 +248,7 @@ const products = [
     description: "Lightweight cricket bat suitable for practice.",
     price: 1299,
     category: "Sports",
-    image: "https://placehold.co/600x500?text=Cricket+Bat",
+    image: "/img/sport2.jpg",
     stock: 12,
   },
   {
